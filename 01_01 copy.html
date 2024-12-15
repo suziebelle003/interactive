@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Web</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <style>
+      .box-container {
+        display: flex;
+      }
+      .box {
+        width: 100px;
+        height: 100px;
+        border: 2px solid black;
+        background: rgba(255, 255, 0, 0.7);
+        /* transition: 1s; 1초동안 애니메이션 효과를 줌 
+         transition-timing-function: linear; 애니메이션 효과를 어떤 타입으로 줄지 정할수 잇음 
+        transition-delay: 2s; 애니메이션 효과를 주기전에 딜레이를 줄 수 있음 */
+        transition: 2s;
+      }
+      .box:hover {
+        width: 200px;
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSS Transform</h1>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, fugit
+      minima reprehenderit omnis corporis eius pariatur. Minima, eius voluptates
+      libero, ipsam accusamus sit eum animi facilis enim aperiam labore amet?
+    </p>
+    <div class="box-container">
+      <div class="box">A</div>
+      <div class="box">B</div>
+      <div class="box">C</div>
+      <div class="box">D</div>
+      <div class="box">E</div>
+    </div>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum accusamus
+      doloremque ipsam sequi expedita saepe magni tempore vel hic reprehenderit
+      quos perspiciatis, voluptates quibusdam minima ullam praesentium corrupti
+      aspernatur rem!
+    </p>
+  </body>
+</html>
